@@ -1,0 +1,29 @@
+1-Buscar pelicula
+1-Login
+2-ingresar el nombre de la pelicula a buscar
+3-validar los datos de la pelicula seleccionada
+
+public main(){
+    loginCorrecto(user="Cris", email= "cris@cris.com", pass="test@1234");
+    buscarNombrePelicula(tituloPelicula="Die Hard");
+    assertTituloPelicula(tituloPelicula);
+}
+
+loginCorrecto(user, email, pass) {
+	navegar(“https://imdb.com”)
+	registrarCuenta(email, pass);
+	validarCuenta(user);
+}
+buscarNombrePelicula (titulopelicula){
+    clickSearchTextBox();
+    type(titulopelicula);
+    ClickSearchButton();
+}
+assertTituloPelicula (titulopelicula){
+    Verify listadoDeResultados;
+    Verify link=titulopelicula;
+}
+
+
+
+

@@ -1,0 +1,63 @@
+1.  agregar un contacto
+
+    Navegar (URL)
+    {
+    navegar a la pagina (URL)
+    validar que se cargan los elementos
+     *user
+     *password
+     *login
+    }
+
+    logIn (user,password)
+    {
+    ingresar usuario en el campo de usrname
+    ingresar el password en el otro campo de password
+    dar click en el boton login
+    validar aparezca la pagina home
+     * elemento de busqueda
+     * lupa
+     * foto
+     * nombre
+    }
+
+    buscarPersona (nombrePersona)
+    {
+     ingresar el nombre de la persona en el campo de busqueda
+     validar que aparezcan opciones en un dropdown de resultados
+     click al boton de la lupa
+     validar que aparecen varios resultados en la pesta;a de 'todos'
+    }
+
+
+     solicitudAmistad(informacionPersona)
+    {
+     dar click en la pesta;a de 'Personas'
+     validar que aparecen mas resultados en la pesta;a de 'Personas'
+     hacer scroll hasta encontrar a la persona que tiene la informacion "Vive en Ciudad Obregón"
+     dar click en el boton 'Agregar'
+     validar que aparece 'Solicitud de amistad enviada'
+    }
+
+2.  darle like a una pagina
+
+    navegar (url){}
+    login   (user, password){}
+
+    buscarPagina(nombrePagina)
+    {
+     ingresar el nombre de la pagina en el campo de busqueda
+     validar que aparezcan opciones en un dropdown de resultados
+     click al boton de la lupa
+     validar que aparecen varios resultados en la pesta;a de 'todos'
+    }
+
+    likePagina (informacionPagina)
+    {
+     dar click en la pesta;a de 'Paginas'
+     validar que aparecen mas resultados en la pesta;a de 'Paginas'
+     hacer scroll hasta encontrar a la pagina que tiene la informacion "9GAG is your best source of fun."
+     dar click en el boton 'Me gusta'
+     validar que aparece 'Te gusta' 
+    }
+

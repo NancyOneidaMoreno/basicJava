@@ -1,11 +1,11 @@
 Implementa un programa que imprima una media piramide de una altura especificada por el usuario, como abajo:
 
 $ ./mario
-Altura: 5
-    ##
-   ###
-  ####
- #####
+Altura: 5  //pedir la altura
+    ##      //utilizar un ciclo para imprimir n renglones, donde n es la altura.
+   ###      // para imprimir cada renglon, primero tengo que imprimir espacios, y luego los gatitos, y luego un salto de linea
+  ####      //problema numero uno:  cuantos espacios hay en el renglon correspondiente?
+ #####      //problema numero dos:  cuantos gatitos hay en el renglon correspondiente?
 ######
 
 $ ./mario
